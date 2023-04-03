@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_basics/learn.dart';
+
+import 'home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: const RootPage(),
+      home: const Learn(),
     );
   }
 }
@@ -34,6 +37,7 @@ class _RootPageState extends State<RootPage> {
       appBar: AppBar(
         title: const Text('Pedri'),
       ),
+      body: const HomePage(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           debugPrint('Floating Action Button');
