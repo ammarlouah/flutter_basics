@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basics/learn.dart';
 import 'package:flutter_basics/profile_page.dart';
 
 import 'home_page.dart';
